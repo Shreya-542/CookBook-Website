@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Tangerine");
+
+.nav-item{
+    padding-left: 50px;
+    color: brown;
+}
+
+*,
+*:after,
+*:before{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:active,
+:hover,
+:focus{
+    outline: 0 !important;
+    outline-offset: 0;
+}
+
+a{
+    color: rgb(160, 63, 63)!important;
+    font-weight: bolder !important;
+}
+a:hover{
+    color:green !important;
+}
+
+ul,
+ol{
+    margin: 0;
+    padding: 0;
+}
+
+/* variable define */
+:root{
+    --primary-color:rgb(160, 63, 63);
+    --secondary-color:rgb(31, 17, 17);
+    --third-color:rgb(215, 185, 128);
+    --white-color:white;
+    --text-color:#555;
+    --text-gray:#999;
+    --black-color:#000;
+    --primary-font: 'Roboto','sans-serif';
+    --secondary-font:'Quicksand','sans-serif';
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: var(--primary-font);
+    font-size:100%;
+    font-weight: 400;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 3rem;
+    color: var(--secondary-color);
+}
+
+h4{
+    font-weight: 700;
+    color: rgb(113, 61, 61);
+}
+
+p{
+    font-size: 1rem;
+    color:black;
+    font-weight:1000;
+    line-height: 1.75rem;
+    letter-spacing: 1px;
+}
+
+.img-fluid{
+    height:600px;
+    width: 100%;
+
+}
+
+
+/* counter */
+.counter-section{
+    background-color:rgb(221, 217, 217);
+    padding: 0.5rem 0;
+    padding-top:20px;
+    margin-top: 10px;
+    font-size: 17px !important;
+    
+}
+.counter-section{
+    color: var(--white-color);
+    text-transform: uppercase;
+}
+
+.finalcard{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    
+}
+
+.carousel-inner img{
+    margin: auto;
+}
+
+.aboutdiv{
+
+    height:600px;
+    width:70%;
+    object-fit: contain !important;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+.carousel-item{
+    height: 600px;
+    width: 100%;
+}
+
